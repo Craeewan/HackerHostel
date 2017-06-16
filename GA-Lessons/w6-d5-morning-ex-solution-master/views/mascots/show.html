@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <title></title>
+</head>
+
+<body>
+    <a href="/mascots/">Back to all Mascots</a>
+    <hr />
+
+    <img src={{ mascot_image }} />
+    <h3>{{ mascot_name }} - Mascot from <a href="/schools/{{ school_id }}">{{ school_name }}</a></h3>
+    <img src={{ school_image }} />
+
+    <hr />
+
+    <a href="/mascots/{{ mascot_id }}/edit">Edit this Mascot</a>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <title></title>
+</head>
+
+<body>
+    <h3>Chuck Norris Jokes!</h3>
+    <a href="/jokes/new">Create new Joke</a> {{ #jokes }}
+    <a href="/jokes/{{ id }}">
+        <h5>{{ text }}</h5>
+    </a>
+    {{ /jokes }}
+</body>
+
+</html>

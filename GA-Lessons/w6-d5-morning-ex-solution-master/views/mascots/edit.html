@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <title></title>
+</head>
+
+<body>
+    <a href="/mascots/{{mascot_id}}">Back</a>
+    <h3> Edit {{ mascot_name }} from <a href="/schools/{{ school_id }}">{{ school_name }}</a></h3>
+
+    <form class="edit-mascot-form">
+        <label>Name:</label>
+        <input class="mascot-name-input" value='{{mascot_name}}' />
+        <br />
+
+        <label>Image:</label>
+        <input class="mascot-image-input" value='{{ mascot_image }}' />
+        <br />
+        <img src='{{ mascot_image }}' />
+        <br />
+
+        <input type="hidden" class="mascot-id-input" value='{{ mascot_id }}' />
+        <input type="hidden" class="mascot-school-id-input" value='{{ school_id }}' />
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

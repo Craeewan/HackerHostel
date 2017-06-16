@@ -1,0 +1,36 @@
+body {
+	background-color: #111;
+	overflow: hidden;
+}
+
+p {
+	position: absolute;
+	color: yellow;
+	font-family: Helvetica;
+	animation: scroll 100s linear infinite;
+}
+
+#title{
+	font-family: Helvetica;
+	font-size: 64pt;
+}
+
+#container {
+	position: absolute;
+	width: 60%;
+	left: 20%;
+	height: 50em;
+	bottom: 0px;
+	margin: 0 auto;
+	font-weight: bold;
+	text-align: justify;
+	font-size: 35pt;
+	line-height: 65px;
+	transform: perspective(500px) rotateX(25deg);
+	transform-origin: 50% 100%;
+}
+
+@keyframes scroll {
+	0% { top: 100% ; }
+	100% { top : -500%; }
+}

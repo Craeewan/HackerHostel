@@ -1,0 +1,27 @@
+body {
+	background-color: black;
+}
+
+.boxyBox {
+	height: 200px;
+	width: 200px;
+}
+
+#mrFunBox {
+	background-color: palevioletred;
+	transition: height 1s, width 8s;
+}
+
+#mrOkBox {
+	background-color: cornflowerblue;
+}
+
+#mrFunBox:hover {
+	height: 300px;
+	width: 300px;
+	text-decoration: underline;
+}
+
+#mrFunBox:active {
+	background-color: peachpuff;
+}

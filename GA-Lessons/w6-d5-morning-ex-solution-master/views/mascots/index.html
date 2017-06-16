@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <title></title>
+</head>
+
+<body>
+    <h3>Mascots!</h3>
+    <a href="/mascots/new">Create new Mascot</a> {{ #mascots }}
+    <a href="/mascots/{{ id }}">
+        <h5>{{ name }}</h5>
+        <img src={{ image }} />
+    </a>
+    {{ /mascots }}
+</body>
+
+</html>

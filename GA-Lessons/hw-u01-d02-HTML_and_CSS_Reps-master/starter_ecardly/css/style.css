@@ -1,0 +1,121 @@
+/*
+Project Name: Ecard.ly
+Client: General Assembly
+Author: Christopher Castig | @castig
+Developer @GA in NYC
+*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/*-----------------------------------------------------------------------------
+BASE STYLE
+-----------------------------------------------------------------------------*/
+
+
+/* ??  NOTE: These are the css selectors we used...
+        feel free to use any you want! */
+
+/* Write your CSS here! */
+
+body {
+  /*  What syles apply to all of the body contain */
+  /* background? font-faimly?  etc.*/
+}
+
+a {
+	/* How are 'a' tags styled? */
+}
+
+h1 a {
+  /* What should 'a' tags WITHIN 'h1' tags look like? */
+}
+
+h2 {
+  /* What should 'h2' tags look like? */
+}
+	h2 a {
+	   /* What should 'a' tags WITHIN 'h2' tags look like? */
+	}
+
+
+
+/*-----------------------------------------------------------------------------
+LAYOUT
+-----------------------------------------------------------------------------*/
+
+/* NOTE: These are the css selectors we used...
+        feel free to use any you want! */
+
+/* Center the container */
+#container {
+	/* ??  */
+}
+
+#header {
+	/* ??  */
+}
+
+#main {
+	/* ??  */
+}
+
+	.post {
+		/* ??  */
+	}
+
+	.post-meta {
+		/* ??  */
+	}
+
+#sidebar {
+	/* ??  */
+}
+
+	#sidebar .widget {
+		/* ??  */
+	}
+
+#sidebar ul {
+	/* ??  */
+}
+
+#sidebar li {
+	/* ??  */
+}
+
+#sidebar a {
+	/* ??  */
+}
+
+footer {
+	/* ??  */
+}

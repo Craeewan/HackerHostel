@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <h1>A Planet: {{ name }}</h1>
+    <div class="container">
+      <p>Name: {{name}}</p>
+      {{#attributes}}
+         <p> {{key}}: {{val}} </p>
+      {{/attributes}}
+    </div>
+  </body>

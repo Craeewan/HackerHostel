@@ -1,0 +1,68 @@
+* {
+    font-family: "Georgia", serif;
+}
+
+/* ================================================== */
+/* divs */
+
+div {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* ================================================== */
+/* remarks */
+
+.remark {
+    width: 100%;
+    font-size: 14pt;
+    background-color: rgb(255,240,190);
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0;
+    border: 0px;
+}
+
+.remark p {
+    margin-left: 14pt;
+    margin-right: 14pt;
+    max-width: 40em;
+    line-height: 1.3;
+}
+
+.separator {
+    /* border-top: black solid 1px; */
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.remark.separator{    
+    font-size: 20pt;
+}
+
+/* ================================================== */
+
+.announcement {
+    background-color: lightgreen;
+}
+
+
+/* ================================================== */
+/* clickyTree */
+
+.clickyTree {
+    display: flex;
+}
+
+/* .clickyTree:before { */
+/*     clear: both; */
+/* } */
+
+/* .clickyTree div[level="0"][child_inx="0"] { */
+/*     background-color: red; */
+/*     float: left; */
+/* } */
+
+/* .clickyTree div[level="0"][child_inx="0"]:before { */
+/*     clear: both; */
+/* } */

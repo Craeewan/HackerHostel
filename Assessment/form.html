@@ -8,7 +8,36 @@
     height: 25px;
     border-radius: 10px;
   }
+  form {
+    height: 600px;
+    width: 600px;
+    background-image: url("http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  img{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  .cat{
+
+  }
+  .cats{
+    display: none;
+  }
+  .row{
+    display: flex;
+  }
+  .display{
+    display: block;
+  }
+
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="animals.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <form action="" method="get" accept-charset="utf-8">
@@ -16,6 +45,18 @@
   <input type="number" name="phone" placeholder="phone #" max="9">
   <input type="email" name="email" placeholder="email">
   <input type="submit" name="submit">
+
+  <iframe width="400" height="400" src="https://www.youtube.com/embed/dZiJkicepzM" frameborder="0" allowfullscreen margin="auto"></iframe>
 </form>
+<div>
+      <img class="cat" src="https://www.petfinder.com/wp-content/uploads/2012/11/91615172-find-a-lump-on-cats-skin-632x475.jpg" alt="">
+      <div class="row">
+        <img class="cats" src="" alt="">
+        <img class="cats" src="" alt="">
+        <img class="cats" src="" alt="">
+
+
+      </div>
+  </div>
 </body>
 </html>

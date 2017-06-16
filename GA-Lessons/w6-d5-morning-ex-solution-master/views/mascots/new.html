@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <title></title>
+</head>
+
+<body>
+    <h5> Create a new Mascot </h5>
+
+    <form class="new-mascot-form">
+        <label>Name:</label>
+        <input class="mascot-name-input" />
+        <br />
+
+        <label>Image:</label>
+        <input class="mascot-image-input" />
+        <br />
+
+        <label>School:</label>
+        <select class="mascot-school-id-input">
+          {{#schools}}
+            <option value='{{ id }}' >{{ name }}</option>
+          {{/schools}}
+        </select>
+        <br />
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
